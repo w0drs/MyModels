@@ -6,9 +6,9 @@ class MyLogRegression:
 
         Параметры:
         ----------
-        learning_rate : float, default=0.001
+        learning_rate : float, default=0.08
             Скорость обучения.
-        n_iter : int, default=1000
+        n_iter : int, default=2500
             Количество итераций обучения.
     """
     def __init__(self, learning_rate=0.08, n_iter=2500):
